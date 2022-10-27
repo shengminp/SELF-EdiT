@@ -20,9 +20,9 @@ from __future__ import print_function
 import math
 import os.path as op
 from rdkit import Chem
-from rdkit.Chem import rdMolDescriptors
-from rdkit.six.moves import cPickle
 from rdkit.six import iteritems
+from rdkit.six.moves import cPickle
+from rdkit.Chem import rdMolDescriptors
 
 _fscores = None
 def readFragmentScores(name='fpscores'):

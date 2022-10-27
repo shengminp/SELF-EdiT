@@ -30,7 +30,7 @@ class SELFEdiTModel(LevenshteinTransformerModel):
     ):
         assert high_mol is not None, "forward function only supports training."
         high_lengths = torch.LongTensor(
-            [item.ne(1).long().sum() for item in high_mol]
+            [item.ne(self.pad).long().sum() for item in high_mol]
         )
         encoder_out = self.encoder(high_mol, src_lengths=high_lengths, **kwargs)
         # generate training labels for deletion

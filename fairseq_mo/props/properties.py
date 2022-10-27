@@ -1,10 +1,10 @@
-from rdkit import Chem, DataStructs
-from rdkit.Chem import AllChem
-from rdkit.Chem import Descriptors
-import rdkit.Chem.QED as QED
 import sascorer
 import drd2_scorer
 import networkx as nx
+import rdkit.Chem.QED as QED
+from rdkit.Chem import AllChem
+from rdkit.Chem import Descriptors
+from rdkit import Chem, DataStructs
 
 def similarity(a, b):
     if a is None or b is None: return 0.0

@@ -11,7 +11,6 @@ from fairseq.tasks.translation_lev import (
     TranslationLevenshteinConfig,
     TranslationLevenshteinTask,
 )
-
 from fairseq_mo.utils.tokenizer import s2s_tokenize
 from fairseq_mo.utils.iterative_refinement_generator import IterativeRefinementGenerator
 

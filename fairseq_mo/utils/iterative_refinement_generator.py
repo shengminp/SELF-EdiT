@@ -3,12 +3,10 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-from collections import namedtuple
-
-import numpy as np
 import torch
+import numpy as np
 from fairseq import utils
-
+from collections import namedtuple
 
 DecoderOut = namedtuple(
     "IterativeRefinementDecoderOut",
@@ -199,7 +197,6 @@ class IterativeRefinementGenerator(object):
             }
 
         for step in range(self.max_iter + 1):
-
             decoder_options = {
                 "eos_penalty": self.eos_penalty,
                 "max_ratio": self.max_ratio,

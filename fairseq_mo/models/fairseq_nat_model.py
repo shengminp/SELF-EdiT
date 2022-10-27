@@ -4,10 +4,9 @@
 # LICENSE file in the root directory of this source tree.
 
 import math
-
 import torch
 from torch import Tensor
-from typing import Any, Dict, List, Optional
+from typing import Dict, List, Optional
 from fairseq.models.transformer import (
     TransformerDecoder,
     TransformerEncoder,
