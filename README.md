@@ -87,7 +87,7 @@ python preprocess.py \
     --padding-factor 1
 ```
 
-### Running the SimCSE to get embeddings of SELFragments
+### Run the SimCSE to get embeddings of SELFragments
 First, run the code /dataset/prepare_data_for_SimCSE.ipynb
 Then, run the following code:
 ```
@@ -101,7 +101,7 @@ python train_simcse.py \
 ```
 Finally, run the code /dataset/extract_embedding from_SimCSE.ipynb
 
-### Training the SELF-EdiT
+### Train the SELF-EdiT
 
 ```
 fairseq-train \
