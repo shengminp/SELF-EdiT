@@ -40,6 +40,16 @@ pip install ./
 ```
 
 After the overall installation, make sure the directory of the project is as follows:
+
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
+    
     .
     ├── checkpoints
     │   ├── drd2
