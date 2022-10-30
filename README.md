@@ -13,7 +13,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installing
 
-Creating an environment with commans
+Creating an environment with commands.
 
 ```
 git clone https://github.com/sungmin630/SELF-EdiT.git
@@ -21,7 +21,7 @@ cd SELF-EdiT
 conda env create -f environment.yml
 ```
 
-Clone and install the following projects
+Cloning and installing the following projects.
 
 ```
 git clone https://github.com/facebookresearch/fairseq.git --branch 0.12.2-release
@@ -40,15 +40,6 @@ pip install ./
 ```
 
 After the overall installation, make sure the directory of the project is as follows:
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
     
     .
     ├── checkpoints
@@ -63,7 +54,7 @@ After the overall installation, make sure the directory of the project is as fol
     |   │   ├── aug_data
     |   │   ├── bin_data
     │   |   └── emb_data
-    │   └── qed
+    │   ├── qed
     |   │   ├── aug_data
     |   │   ├── bin_data
     │   │   └── emb_data
