@@ -70,7 +70,7 @@ After the overall installation, make sure the directory of the project is as fol
 
 In the following code, the values that can be used in {PROPERTY} are "drd2" and "qed".
 
-### Preprocess the raw dataset to binarized dataset and generate vocabulary.
+### Preprocess the raw dataset to binarized dataset and generate vocabulary
 
 ```
 python preprocess.py \
