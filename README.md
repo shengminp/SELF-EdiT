@@ -24,8 +24,8 @@ Cloning and installing the following projects.
 ```
 git clone https://github.com/facebookresearch/fairseq.git --branch 0.12.2-release
 cd fairseq
-(Make sure to set the CUDA_HOME in your environment to use the lib_nat.)
-(Recommend commenting out the torch version in steup.py to avoid the torch version incompatibility.)
+# Make sure to set the CUDA_HOME in your environment to use the lib_nat.
+# Recommend commenting out the torch version in steup.py to avoid the torch version incompatibility.
 pip install --editable ./
 python setup.py build_ext --inplace
 
