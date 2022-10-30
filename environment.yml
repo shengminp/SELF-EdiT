@@ -1,4 +1,4 @@
-name: test
+name: selfedit
 channels:
  - pytorch
  - conda-forge
