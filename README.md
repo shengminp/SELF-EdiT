@@ -33,14 +33,6 @@ cd fairseq
 # Make sure to set the CUDA_HOME in your environment to use the lib_nat.
 pip install --editable ./
 python setup.py build_ext --inplace
-
-git clone https://github.com/sungmin630/SentEval.git
-cd SentEval
-pip install ./
-
-git clone https://github.com/princeton-nlp/SimCSE.git
-cd SimCSE
-pip install ./
 ```
 
 After the overall installation, make sure the directory of the project is as follows:
@@ -66,7 +58,6 @@ After the overall installation, make sure the directory of the project is as fol
     ├── fairseq
     ├── fairseq_mo
     ├── results
-    ├── SimCSE
     ├── envurinment.yml
     ├── preprocess.py
     ├── train_simcse.py
