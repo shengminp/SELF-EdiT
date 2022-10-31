@@ -4,8 +4,8 @@ Source code of SELF-EdiT: Structure-constrained Molecular Optimization using SEL
 
 ## Table of Contents
 
-- [Getting Started](#getting started)
-- [Running the SELF-EdiT](#running the self-edit)
+- [Getting Started](#getting-started)
+- [Running the SELF-EdiT](#running-the-self-edit)
 - [License](#license)
 
 ## Getting Started
