@@ -23,6 +23,7 @@ dependencies:
  - setuptools>=18.0
  - scipy
  - scikit-learn=0.20.4
+ - pip
  - pip:
    - git+https://github.com/sungmin630/SentEval.git
    - git+https://github.com/princeton-nlp/SimCSE.git
