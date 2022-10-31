@@ -2,6 +2,12 @@
 
 Source code of SELF-EdiT: Structure-constrained Molecular Optimization using SELFIES Editing Transformer
 
+## Table of Contents
+
+- [Getting Started](#getting started)
+- [Running the SELF-EdiT](#running the self-edit)
+- [License](#license)
+
 ## Getting Started
 
 ### Prerequisites
@@ -148,3 +154,7 @@ fairseq-generate \
     --beam 1 --remove-bpe \
     --batch-size 400
 ```
+
+## License
+
+[MIT](LICENSE) © PIAO SHENGMIN & Jonghwan Choi.
