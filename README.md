@@ -34,11 +34,12 @@ cd fairseq
 pip install --editable ./
 python setup.py build_ext --inplace
 
-git clone https://github.com/princeton-nlp/SimCSE.git
-cd SimCSE
+git clone https://github.com/sungmin630/SentEval.git
 cd SentEval
 pip install ./
-cd ..
+
+git clone https://github.com/princeton-nlp/SimCSE.git
+cd SimCSE
 pip install ./
 ```
 
