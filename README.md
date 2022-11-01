@@ -28,7 +28,7 @@ conda env create -f environment.yml
 Cloning and installing the following projects.
 
 ```
-git clone https://github.com/sungmin630/fairseq-0.12.2.git
+git clone https://github.com/sungmin630/fairseq.git
 cd fairseq
 # Make sure to set the CUDA_HOME in your environment to use the lib_nat.
 pip install --editable ./
