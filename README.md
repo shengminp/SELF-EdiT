@@ -148,4 +148,4 @@ fairseq-generate \
 
 ## License
 
-[MIT](LICENSE) © PIAO SHENGMIN & Jonghwan Choi.
+[MIT](LICENSE) © Shengmin Piao & Jonghwan Choi.
