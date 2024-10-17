@@ -1,6 +1,7 @@
 # SELF-EdiT
 
 Source code of SELF-EdiT: Structure-constrained Molecular Optimization using SELFIES Editing Transformer
+![Fig3](https://github.com/user-attachments/assets/e6587109-0b90-423c-8579-d5a1d35f226a)
 
 ## Table of Contents
 
